@@ -68,7 +68,7 @@ body {
 }
 
 /* =========================== STUDIO page =========================== */
-/* Header */
+/* HEADER */
 
 .header {
   background-color: var(--nav-bgc-color);
@@ -110,7 +110,7 @@ body {
   color: var(--accent-txt-color);
 }
 
-/* Hero */
+/* HERO */
 .hero {
   background-color: var(--main-bgc-color);
 }
@@ -133,9 +133,9 @@ body {
   background-color: var(--accent-bgc-color);
 }
 
-/* Advantages */
+/* ADVANTAGES */
 
-/* Footer */
+/* FOOTER */
 .footer {
   background-color: var(--main-bgc-color);
 }
