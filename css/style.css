@@ -1,15 +1,23 @@
 :root {
-  /* Text colors */
+  /* =================TEXT COLORS================= */
+  /* slate */
   --main-txt-color: #434455;
+  /* navy-blue */
   --secondary-txt-color: #2e2f42;
+  /* ocean */
   --accent-txt-color: #404bbf;
+  /* Iris */
   --primary-brand-color: #4d5ae5;
   --white-txt-color: #ffffff;
 
-  /* Background colors */
+  /* =================BACKGROUND COLORS================= */
+  /* navy-blue */
   --main-bgc-color: #2e2f42;
+  /* cornflower */
   --nav-bgc-color: #e7e9fc;
+  /* ocean */
   --accent-bgc-color: #404bbf;
+  /* cloud */
   --light-bgc-color: #f4f4fd;
 }
 
@@ -18,15 +26,15 @@ body {
   color: var(--main-txt-color);
 }
 
-ul {
+/* === COMMON styles ===*/
+.list {
   list-style: none;
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
-/* Common */
 .title {
   color: var(--secondary-txt-color);
   font-weight: 500;
@@ -59,9 +67,28 @@ a {
   cursor: pointer;
 }
 
+/* =========================== STUDIO page =========================== */
 /* Header */
+
 .header {
   background-color: var(--nav-bgc-color);
+}
+
+.logo {
+  color: var(--primary-brand-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-header {
+  color: var(--secondary-txt-color);
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
 }
 
 .nav .nav-link {
@@ -83,28 +110,7 @@ a {
   color: var(--accent-txt-color);
 }
 
-.logo {
-  color: var(--primary-brand-color);
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: calc(24 / 18);
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
-.logo-header {
-  color: var(--secondary-txt-color);
-  font-size: 16px;
-  line-height: calc(24 / 16);
-  letter-spacing: 0.02em;
-}
-
-.logo-footer {
-  color: var(--light-bgc-color);
-}
-
-/* Hero Section */
+/* Hero */
 .hero {
   background-color: var(--main-bgc-color);
 }
@@ -138,7 +144,11 @@ a {
   color: var(--nav-bgc-color);
 }
 
-/* PORTFOLIO Page */
+.logo-footer {
+  color: var(--light-bgc-color);
+}
+
+/* =========================== PORTFOLIO page =========================== */
 .btn-light-bgc {
   background-color: var(--nav-bgc-color);
   color: var(--primary-brand-color);
